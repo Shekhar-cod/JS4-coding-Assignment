@@ -95,6 +95,7 @@ console.log(fullName);
 
 //writting a function that takes an array of numbers and returns true if the 
 //sum of all the numbers in the array is greater than 100.
+let numbers = [30, 50, 25];
 function isSumGreaterThen100(numbers) {
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
@@ -103,7 +104,7 @@ function isSumGreaterThen100(numbers) {
     return sum > 100;
 }
 
-let numbers = [30, 50, 25];
+
 console.log("sum of the number is greater then 100:", isSumGreaterThen100(numbers));
 
 //calculating the Average of the numbers.
@@ -159,7 +160,7 @@ function willBuyDrink(isHotOutside, moneyInpocket) {
 }
 console.log("Will Buy Drink:",willBuyDrink(true, 15));
 
-//writting a function that calculates and returns the square of a number, which is passed in as a parameter.
+//Creating a function that calculates and returns the square of a number, which is passed in as a parameter.
 //This function will take one parameter, and return the parameter multiplied by itself.
 
 let num = 10;
